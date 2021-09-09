@@ -1,0 +1,110 @@
+.navdesign{
+
+    margin: 10px;
+    padding: 3px;
+    background-color: black;
+}
+
+.loginbutton{
+
+    padding-left: 1000px;
+    margin-left: -10%;
+}
+
+
+.bodydesign
+{
+      margin: 20px;
+   
+    padding-top: 200px;
+    padding-bottom: 300px;
+    border: 1px solid black;
+
+}
+
+.serchshift{
+
+    padding-left: 200px;
+}
+
+.footer
+{
+color: white;
+    background-color: black;
+padding: 10px;
+    margin: 20px;
+}
+
+.name{
+
+    color: #1e0707;
+    font-weight: bold;
+}
+
+.data2
+{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+
+.data1
+{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.flags
+{border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px ;
+}
+
+.explore{
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15%;
+    border: 2px solid black;
+    background-color: #c2c7aa;
+}
+.mb3{
+    padding-top: 10px;
+}
+
+#logo{
+    font-size: 25px;
+    font-weight:800
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
