@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import Login from "./login";
 import Signup from "./signup";
 import Nav from './startpage';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import  "./home.css";
 export default class Main extends Component{
 
