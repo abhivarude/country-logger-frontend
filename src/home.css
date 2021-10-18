@@ -80,21 +80,72 @@ padding: 10px;
     font-weight:800
 }
 
+.navnew{
+    background-color: black;
+}
+
+.varity{
+color: #c2c7aa;
+font-weight: 800;
+    background-color:#1e0707;
+padding-top: 80px;
+    padding: 80px;
+    margin: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.imgtour{
+
+
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.imgtouri{
+
+    padding: 20px;
+}
+.visited{
+margin: 20px;
+    padding: 30px;
+   
+}
 
 
 
 
 
+.book{
+    padding: 40px;
+    margin: 40px;
+    background-image: url("https://res.cloudinary.com/abhiscompany/image/upload/v1634103104/bookimage_huy3z2.jpg");
+    border: 1px solid black;
+   
+}
+
+.bookbody{
+ 
+ margin: 0px;
+ padding: 40px;
+padding-bottom: 0px;
+color: #000000;
+font-weight: 900;
+}
+
+#fli{
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 10px;
+}
 
 
-
-
-
-
-
-
-
-
+.attraction
+{
+    width:"90%"; height:"800px";
+}
 
 
 

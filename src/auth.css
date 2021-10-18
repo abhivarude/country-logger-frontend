@@ -1,0 +1,47 @@
+.loginimage{
+
+    padding-top: 0px;
+    padding-left: 50px;
+}
+
+.loginbody
+{
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+.login{
+
+    padding: 80px;
+    border: 2px solid black;
+
+    
+    background-color: #0c5e6f73;
+    color: #000000;
+    font-weight:bold;
+
+}
+.error{
+    color: red;
+}
+.all
+{padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("https://res.cloudinary.com/abhiscompany/image/upload/v1634103104/bookimage_huy3z2.jpg");
+}
+
+.signupbody{
+    border: 1px solid black;
+    padding: 50px;
+    background-color: #0c5e6f73;
+    color: #000000;
+    font-weight:bold;
+
+    
+}
+.container1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-image: url("https://res.cloudinary.com/abhiscompany/image/upload/v1634103104/bookimage_huy3z2.jpg"); 
+}

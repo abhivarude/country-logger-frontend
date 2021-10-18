@@ -4,7 +4,7 @@ import axios from "axios"
 import { Container } from "reactstrap";
 import {NavLink} from "react-router-dom"
 
-
+import Navbar from "./navbar";
 
 export default class Home extends Component{
 
@@ -26,7 +26,7 @@ componentDidMount(){
 
 names=async()=>{
   
-const names=await axios.get("https://country-logger.herokuapp.com//alldata");
+const names=await axios.get("https://country-logger.herokuapp.com/alldata");
 
 this.setState({countrydata: names.data});
 
@@ -156,19 +156,7 @@ render(){
 
 
  
-<div className="navdesign"> 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <h1> <NavLink class="navbar-brand" id="logo"to="#">Country Logger</NavLink></h1> 
-      <div className="row">
-      
-      <div className="col">    <NavLink id="button3" class="btn btn-dark" to="/contact">Explore</NavLink></div>
-    </div>
-    </div>
-  
-  </nav>
-
-</div>
+<Navbar/>
 
 
 <div className="bodydesign" style={{      backgroundImage: 'url("map.jpg")',      height: "300px"
@@ -192,7 +180,7 @@ render(){
                           <div className="col">
                             
                           <div className="data">
-                     \
+                     
                         <img src="country.jpg" width="400px" className="flags"></img>
                           </div>
                           </div>

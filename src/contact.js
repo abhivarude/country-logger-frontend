@@ -1,5 +1,6 @@
 import "./home.css";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
+import Navbar from "./navbar";
 import axios from "axios";
 const validateEmail = RegExp(
     /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
@@ -15,9 +16,9 @@ const validate=values=>{
     {
         errors.name="name is required";
     }
-    else if(values.length)
+    else if(values.name.length<6)
     {
-        errors.name="length of name shoud greter than 10";
+        errors.name="length of name shoud greter than 6";
     }
     if(!values.email)
 
@@ -36,11 +37,20 @@ const validate=values=>{
 
                         errors.data="data required";
                     }
+                 if(values.data.length<6)
+                    {
+                        errors.name="length of data shoud greter than 6";
+                    }
+
+
+
     return errors;
 }
 
 
 return(<>
+ 
+ <Navbar/>
 
 <Formik initialValues={
     {
@@ -54,11 +64,13 @@ return(<>
 onSubmit={async (values)=>{
 
 const data=await axios.post("https://country-logger.herokuapp.com/login",{name:values.name,email:values.email,data:values.data})
-if(data.status===200)
+if(data.status==200)
 {
     alert("response submitted");
   
 }
+
+values.name="";values.email="";values.data="";
     
 }}
 validate={validate}
@@ -100,7 +112,7 @@ validate={validate}
 
 <div className="mb3">
     
-    <button type="submit" className="btn btn-primary">submit</button>
+    <button type="submit" className="btn btn-primary" >submit</button>
     
      </div>
 
