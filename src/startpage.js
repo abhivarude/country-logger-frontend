@@ -23,11 +23,11 @@ export default function Nav(){
           </ul>
           <ul class="nav ml-auto">
             <li class="nav-item">
-              <NavLink to="./login" class="btn btn-info">Login</NavLink>
+              <NavLink to="./login" class="btn btn-warning">Login</NavLink>
             </li>
             <li>  <div>&nbsp;&nbsp;</div></li>
             <li class="nav-item">
-              <NavLink to="./signup" class="btn btn-info">signup</NavLink>
+              <NavLink to="./signup" class="btn btn-warning">signup</NavLink>
             </li>
           </ul>
           
