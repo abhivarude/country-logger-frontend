@@ -12,7 +12,7 @@ export default function Nav(){
 <div className="navnew">
 <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="800">
       <div class="container">
-        <NavLink to="#" class="navbar-brand">PLANNERS</NavLink>
+        <NavLink to="./mainpage" class="navbar-brand">PLANNERS</NavLink>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
           <span class="ti-menu"></span>
         </button>

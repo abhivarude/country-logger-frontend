@@ -13,7 +13,6 @@ export default function Login (props){
 
 
 
-
 const validate=values=>{
 const errors={}
 
@@ -50,6 +49,7 @@ onSubmit={async (values)=>{
   if(await login.status===200)
   {
       alert("logged in")
+      
 login11=values.email;
 console.log(login11);
       props.history.push("./dashboard");

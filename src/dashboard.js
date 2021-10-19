@@ -25,15 +25,33 @@ return(<>
 
  
 
- <img src="tour.jpg" width="90%" height="800px"></img>
- <div className="att1">
-<div className="attraction">
-<h2>Travel, food, culture, and budget travel tips</h2>
-<h2>INSPIRATION TO HELP YOU PLAN YOUR NEXT ADVENTURE.</h2>
+ <div className="def" >
+<div className="container"> 
+<div className="design">
+ <div className="row">
+<div className="col">
+{/* <img src="tour.jpg" width="90%" height="800px"></img> */}
+<iframe height="300px" width="500px" src="https://media.istockphoto.com/videos/the-couple-with-camping-backpacks-walking-to-the-mountain-top-slow-video-id1151597371"></iframe>
+</div>
 
+<div className="col">
+
+<h3>Travel Super Simplified</h3>
+<p>With special corporate rates on flights & hotels,<br></br> save your travel budget by paying less for more features</p>
+
+<h3>Tax Savings with GST Invoices </h3>
+<p>With special corporate rates on flights & hotels,<br></br> save your travel budget by paying less for more features</p>
 
 </div>
-</div>
+
+ </div>
+ </div>
+ </div>
+
+ </div>
+
+
+
 <div className="container">
   
 <div className="visited">
@@ -66,6 +84,14 @@ return(<>
 </div>
 
 
+<div className="att1">
+<div className="attraction">
+<h2>Travel, food, culture, and budget travel tips</h2>
+<h2>INSPIRATION TO HELP YOU PLAN YOUR NEXT ADVENTURE.</h2>
+
+
+</div>
+</div>
 
 <div className="varity">
 <h3>Experience Variety the best way to see world!</h3>
